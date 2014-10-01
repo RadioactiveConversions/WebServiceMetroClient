@@ -1,0 +1,6 @@
+c:\users\cisco\documents\visual studio 2013\Projects\WebServiceMetroClient\WebServiceMetroClient\bin\WebServiceMetroClient.dll.config
+c:\users\cisco\documents\visual studio 2013\Projects\WebServiceMetroClient\WebServiceMetroClient\bin\WebServiceMetroClient.dll
+c:\users\cisco\documents\visual studio 2013\Projects\WebServiceMetroClient\WebServiceMetroClient\bin\WebServiceMetroClient.pdb
+c:\users\cisco\documents\visual studio 2013\Projects\WebServiceMetroClient\WebServiceMetroClient\obj\Debug\WebServiceMetroClient.csprojResolveAssemblyReference.cache
+c:\users\cisco\documents\visual studio 2013\Projects\WebServiceMetroClient\WebServiceMetroClient\obj\Debug\WebServiceMetroClient.dll
+c:\users\cisco\documents\visual studio 2013\Projects\WebServiceMetroClient\WebServiceMetroClient\obj\Debug\WebServiceMetroClient.pdb
