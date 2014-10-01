@@ -28,15 +28,17 @@ namespace WebServiceMetroClient
 
         [WebMethod]
         //checkt ob der User vorhanden ist
-        public string verifyUser(int ID)
+        public bool verifyUser(int ID)
         {
-            return "";
+            //gibt eine Erfolgsmeldung als bool zurück
+            return true;
         }
 
         [WebMethod]
         //ruft die letzte Änderung ab
         public string getLastChange()
         {
+            //gibt das Datum und die Uhrzeit der letzten Änderung zurück
             return "";
         }
 
@@ -44,6 +46,7 @@ namespace WebServiceMetroClient
         //ruft den Charakter ab
         public string getCharacter(int ID)
         {
+            //gibt alle Charakterdaten als kommaseparierten String zurück
             return "";
         }
 
@@ -51,6 +54,7 @@ namespace WebServiceMetroClient
         //ruft das Inventar des Charakters ab
         public string getInventory(int ID, bool isVerified)
         {
+            //gibt alle Einträge über das Charakterinventar als kommaseparierten String zurück
             return "";
         }
 
@@ -58,6 +62,7 @@ namespace WebServiceMetroClient
         //setzt den Schadensmonitor des Charakters
         public bool setDamage(int ID, int ph, int st)
         {
+            //gibt eine Erfolgsmeldung als bool zurück
             return true;
         }
 
@@ -73,6 +78,8 @@ namespace WebServiceMetroClient
             {
                 //ändere Anzahl
             }
+
+            //gibt eine Erfolgsmeldung als bool zurück
             return true;
         }
 
@@ -80,6 +87,7 @@ namespace WebServiceMetroClient
         //fügt ein NEUES Item in bestimmer Anzahl hinzu
         public bool addItemAmount(int ID, string Item, int count)
         {
+            //gibt eine Erfolgsmeldung als bool zurück
             return true;
         }
 
@@ -87,6 +95,7 @@ namespace WebServiceMetroClient
         //ändert die Munitionszahl, alle Typen sollen im schon in der Datenbank vorhanden sein und auf 0 gesetzt sein
         public bool setAmmoAmount(int ID, string Item, int count)
         {
+            //gibt eine Erfolgsmeldung als bool zurück
             return true;
         }
     }
